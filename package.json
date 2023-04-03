@@ -3,7 +3,7 @@
     "url": "https://github.com/esxl/config-jest-base/issues"
   },
   "dependencies": {
-    "@esxl/constants": "0.3.0",
+    "@esxl/constants": "0.4.0",
     "jest-watch-typeahead": "^2.2.2"
   },
   "description": "A shareable Jest configuration for all EcmaScript based projects",
