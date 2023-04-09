@@ -34,18 +34,18 @@
   },
   "files": [
     "dist",
-    "jest-preset.mjs"
+    "jest-preset.cjs"
   ],
   "homepage": "https://github.com/esxl/config-jest-base#readme",
   "license": "SEE LICENSE IN LICENSE.md",
   "lint-staged": {
     "*": "prettier --ignore-unknown --write"
   },
-  "main": "./jest-preset.mjs",
+  "main": "./jest-preset.cjs",
   "name": "@esxl/config-jest-base",
   "peerDependencies": {
-    "jest": "^29.5.0",
-    "jest-circus": "^29.5.0"
+    "jest": ">=28.1.3",
+    "jest-circus": ">=28.1.3"
   },
   "repository": {
     "type": "git",
@@ -62,7 +62,7 @@
     "test": "jest --passWithNoTests",
     "types": "tsc --listEmittedFiles"
   },
-  "type": "module",
+  "type": "commonjs",
   "types": "./dist/types/index.d.ts",
   "version": "0.1.0"
 }
