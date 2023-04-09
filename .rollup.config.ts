@@ -31,7 +31,7 @@ export default () => {
     input: "./src/index.ts",
     output: {
       file: main,
-      format: "es",
+      format: "cjs",
     },
     plugins: [
       nodeResolve({ extensions }),
