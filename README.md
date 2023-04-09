@@ -28,6 +28,16 @@ You may either use it as a [`preset`](https://jestjs.io/docs/configuration#prese
 
 ### Use as a preset
 
+#### Use as a preset via CLI
+
+When you invoke the Jest CLI, add the `--preset` flag:
+
+```sh
+jest --preset @esxl/config-jest-base
+```
+
+#### Use as a preset via configuration
+
 In your Jest configuration, add the following `preset`:
 
 ```json
